@@ -1,6 +1,6 @@
 // 1
-//console.log(hello);                                   
-//var hello = 'world';                                 
+console.log(hello);                                   
+var hello = 'world';                                 
 /*
 var hello;
 console.log (hello);
@@ -9,12 +9,12 @@ output: undefined
 */
 
 // 2
-//var needle = 'haystack';
-//test();
-//function test(){
-//    var needle = 'magnet';
-//    console.log(needle);
-//}
+var needle = 'haystack';
+test();
+function test(){
+    var needle = 'magnet';
+    console.log(needle);
+}
 /* 
 function test(){
     var needle = 'magnet';
@@ -28,12 +28,12 @@ output: magnet
 
 
 // 3
-//var brendan = 'super cool';
-//function print(){
-//    brendan = 'only okay';
-//    console.log(brendan);
-//}
-//console.log(brendan);
+var brendan = 'super cool';
+function print(){
+    brendan = 'only okay';
+    console.log(brendan);
+}
+console.log(brendan);
 /*
 function print() {
     brendan = 'only okay';
@@ -46,7 +46,7 @@ output: super cool
 */
 
 
-/* 4
+// 4
 var food = 'chicken';
 console.log(food);
 eat();
@@ -54,7 +54,7 @@ function eat(){
     food = 'half-chicken';
     console.log(food);
     var food = 'gone';
-}*/
+}
 /*
 function eat(){
     var food 
@@ -71,7 +71,7 @@ chicken
 half-chicken
 */
 
-/* 5
+// 5
 mean();
 console.log(food);
 var mean = function() {
@@ -80,7 +80,7 @@ var mean = function() {
     var food = "fish";
     console.log(food);
 }
-console.log(food);*/
+console.log(food);
 /*
 mean = function(){
     var food;
@@ -97,7 +97,7 @@ output:
 error (mean != a function)
 */
 
-/*6
+// 6
 console.log(genre);
 var genre = "disco";
 rewind();
@@ -107,7 +107,7 @@ function rewind() {
     var genre = "r&b";
     console.log(genre);
 }
-console.log(genre); */
+console.log(genre); 
 /*
 function rewind() {
     var genre;
@@ -128,7 +128,7 @@ r&b
 disco
 */
 
-/*7
+// 7
 dojo = "san jose";
 console.log(dojo);
 learn();
@@ -139,7 +139,7 @@ function learn() {
     var dojo = "burbank";
     console.log(dojo);
 }
-console.log(dojo); */
+console.log(dojo); 
 /*
 function learn() {
     var dojo;
